@@ -10,8 +10,8 @@ import Services from './cenatal/pages/Services';
 import Cars from './cenatal/pages/Cars';
 import Feature from './cenatal/pages/Feature';
 
-import Navbar from './cenatal/comman/Navbar';
-import Footer from './cenatal/comman/Footer';
+import Navbar from './cenatal/Components/Navbar';
+import Footer from './cenatal/Components/Footer';
 
 import "./style.css";
 import Team from './cenatal/pages/Team';
