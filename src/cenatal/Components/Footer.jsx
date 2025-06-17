@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -23,12 +24,12 @@ export default function Footer() {
                         <div className="col-md-6 col-lg-6 col-xl-3">
                             <div className="footer-item d-flex flex-column">
                                 <h4 className="text-white mb-4">Quick Links</h4>
-                                <a href="#"><i className="fas fa-angle-right me-2"  /> About</a>
-                                <a href="#"><i className="fas fa-angle-right me-2" /> Cars</a>
-                                <a href="#"><i className="fas fa-angle-right me-2" /> Car Types</a>
-                                <a href="#"><i className="fas fa-angle-right me-2" /> Team</a>
-                                <a href="#"><i className="fas fa-angle-right me-2" /> Contact us</a>
-                                <a href="#"><i className="fas fa-angle-right me-2" /> Terms &amp; Conditions</a>
+                        <Link to="/about"><i className="fas fa-angle-right me-2"  /> About</Link>
+                                <Link to="/cars"><i className="fas fa-angle-right me-2" /> Cars</Link>
+                               <Link to="/services"><i className="fas fa-angle-right me-2" /> Services</Link>
+                               <Link to="/team"><i className="fas fa-angle-right me-2" /> Team</Link>
+                               <Link to="/contact"><i className="fas fa-angle-right me-2" /> Contact us</Link>
+                              
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
@@ -73,7 +74,7 @@ export default function Footer() {
                     <div className="container">
                         <div className="row g-4 align-items-center">
                             <div className="col-md-6 text-center text-md-start mb-md-0">
-                                <span className="text-body"><a href="/" className="border-bottom text-white"><i className="fas fa-copyright text-light me-2" />Cental  </a>, <span style={{color:"white "}}>All right reserved.</span></span>
+                                <span className="text-body"><a href="/" className=" text-white"><i className="fas fa-copyright text-light me-2" />Cental  </a>, <span style={{color:"white "}}>All right reserved.</span></span>
                             </div>
                             <div className="col-md-6 text-center text-md-end text-body">
                               

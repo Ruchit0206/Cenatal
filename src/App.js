@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import ScrollToTop from './components/ScrollToTop';
+
 
 import Home from './cenatal/pages/Home';
 import AboutUs from './cenatal/pages/About';
@@ -12,7 +14,7 @@ import Feature from './cenatal/pages/Feature';
 
 import Navbar from './cenatal/Components/Navbar';
 import Footer from './cenatal/Components/Footer';
-
+import ScrollToTop from './cenatal/Components/scrolltotop';
 import "./style.css";
 import Team from './cenatal/pages/Team';
 
@@ -21,7 +23,7 @@ export default function App() {
    
       <div className='App'>
         <Navbar />
-        
+        <ScrollToTop/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
