@@ -1,1 +1,1 @@
-This Repo is Under development  so dont cclone it otherwise you will face errors in console
+This Repo is Under development  so dont clone it otherwise you will face errors in console
